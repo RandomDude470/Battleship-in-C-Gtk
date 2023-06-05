@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <object id="window" class="GtkWindow">
+    <property name="title">Choose difficulty</property>
+        <child>
+            <object id="main" class="GtkBox" >
+                <property name="name">main</property>
+                <property name="homogeneous">0</property>
+                <property name="orientation">1</property>
+                <child>
+                    <object  id="logobox" class="GtkBox">
+                        <property name="name">logobox</property>
+                        <property name="halign">center</property>
+                    </object>
+                </child>
+                <child>
+                    <object id="containerbox" class="GtkBox" >
+                    <property name="name">containerbox</property>
+                    <property name="homogeneous">1</property>
+                    <property name="orientation">1</property>
+                    <property name="vexpand">0</property>
+                    <property name="halign">center</property>
+                    <property name="valign">center</property>
+                    
+
+                        
+                        <child>
+                            <object id="easybox" class="GtkBox">
+                            <property name="name">easybox</property>
+                                <child>
+                                    <object id="easybutton" class="GtkButton">
+                                    <property name="name">easybutton</property>
+                                    
+                                    <property name="vexpand">1</property>
+                                    <property name="halign">center</property>
+                                        
+                                    </object>
+                                </child>
+                            
+                            </object>
+                        </child>
+                        
+                        <child>
+                            <object id="hardbox" class="GtkBox">
+                            <property name="name">hardbox</property>
+                            <child>
+                                    <object id="hardbutton" class="GtkButton">
+                                    <property name="name">hardbutton</property>
+                                    
+                                    <property name="vexpand">1</property>
+                                    <property name="halign">center</property>
+                                        
+                                    </object>
+                            </child>
+                            </object> 
+                        </child>
+                            
+                            
+                        
+                    </object>    
+                    
+                </child>
+
+                
+
+            </object>
+        </child>    
+    </object>
+</interface>

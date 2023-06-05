@@ -1,0 +1,81 @@
+window{
+    background-image: url("wave.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    
+}
+
+button:hover {
+
+    color: brown;
+    background: rgb(227, 205, 60);
+    border-color: blue;
+}
+
+button:active {
+    color: rgb(227, 205, 60);
+    background: brown;
+}
+
+
+#vbox button {
+    padding: 20px;
+    padding-right: 25px;
+    border-color: black;
+}
+#myBox2 button {
+    padding: 20px;
+    padding-right: 25px;
+    border-color: black;
+}
+
+grid {
+    background-color: black;
+    padding: 5px;
+    margin: 20px;
+    
+    
+}
+#logobox{
+    background-image: url("logo.png");
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 100px;
+    margin-top: 30px;
+
+    
+    
+}
+.sea{
+    background: blue;
+
+}
+.sea:hover{
+    background: blue;
+}
+.sunkenship{
+    background: red;
+
+}
+.sunkenship:hover{
+    background: red;
+}
+.destroyedboat{
+    background: red;
+}
+.intactboat{
+    background: black;
+}
+#windowlose{
+    background-image: url("lose.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#windowwin{
+    background-image: url("win.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

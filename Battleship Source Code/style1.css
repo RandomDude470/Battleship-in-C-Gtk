@@ -1,0 +1,89 @@
+
+window {
+    /* background-image: url("im.jpg"); */
+    background-repeat: no-repeat;
+    background: rgba(8, 48, 168, 0.6) ;
+}
+#containerbox{
+    background: rgba(255, 255, 255, 0.5) ;
+    /* padding-top: 500px; */
+    padding: 20px;
+    border-radius: 10%;
+   
+}
+#rulesbutton{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("button_rules.png");
+    /* border-radius: 5%; */
+    opacity: 1;
+    margin-left: 11px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    box-shadow: 2px 3px 10px;
+    border-color: black;
+    border-width: 0px;
+}
+#Difficultybox:hover{
+    opacity: 0.6;
+}
+
+
+
+#startbutton{
+    padding-right: 105px;
+    padding-left: 105px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("button_start.png");
+    /* border-radius: 5%; */
+    opacity: 1;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    box-shadow: 2px 3px 10px;
+    border-color: black;
+    border-width: 0px;
+    
+
+}
+#startbutton:hover{
+    opacity: 0.6;
+}
+#quitbutton:hover{
+    opacity: 0.6;
+}
+#logobox{
+    padding: 200px;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    padding-left: 300px ;
+    padding-right:300px ;
+    background-size: 100%;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+#quitbutton{
+    padding-right: 97px;
+    padding-left: 97px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("button_quit.png");
+    
+    /* border-radius: 5%; */
+    opacity: 1;
+    margin-left: 14px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    box-shadow: 2px 3px 10px;
+    border-color: black;
+    border-width: 0px;
+}
+.rules{
+    background-image: url("rules.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 100%;
+}
