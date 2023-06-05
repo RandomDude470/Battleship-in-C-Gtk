@@ -1,0 +1,94 @@
+window{
+    background-image: url("wave.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    
+}
+#hlogobox{
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50% 50%;
+    padding: 50px;
+    
+    
+}
+/* #containerbox{
+    background: red;
+   
+} */
+button:hover {
+
+    color: brown;
+    background: rgb(227, 205, 60);
+    border-color: blue;
+}
+
+button:active {
+    color: rgb(227, 205, 60);
+    background: brown;
+}
+#gridbox button {
+    padding: 20px;
+    padding-right: 25px;
+    border-color: black;
+}
+#hgridbox button {
+    padding: 20px;
+    padding-right: 25px;
+    border-color: black;
+}
+grid {
+    background-color: black;
+    padding: 1px;
+    margin: 20px;
+    
+    
+}
+.clicked{
+    background: red;
+    color: red;
+    background-color: red;
+
+}
+.clicked:hover{
+    background: red;
+}
+/* #emptybox2{
+    background: blueviolet;
+} */
+#hgridbox{
+    background: black;
+    border-radius: 5%;
+}
+#h_or_v_button{
+    margin-left: 20px;
+    padding: 80px;
+    border-width: 3px;
+    border-color: black;
+    background-image:url("refresh-page-option.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50% 50%;
+    background-color: aliceblue;
+}
+#h_or_v_button:hover{
+    
+    background-color: rgb(227, 205, 60);
+    border-color: blue;
+}
+#h_or_v_button:active{
+    background-color: brown;
+}
+#startgame{
+    padding-left: 70px;
+    padding-right: 70px;
+    background-image: url("button_start.png");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: 50% 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+

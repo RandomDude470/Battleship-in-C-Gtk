@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <object id="windowwin" class="GtkWindow">
+    <property name="title">YOU WIN</property> 
+    <property name="name">windowwin</property>
+    <property name="default-height">600</property>
+    <property name="default-width">1000</property>
+
+        <child>
+            <object id="winbox" class="GtkBox">
+                <property name="name">winbox</property>
+            </object>    
+        </child>
+
+    </object>
+</interface>

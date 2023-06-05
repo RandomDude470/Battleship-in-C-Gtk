@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <object id="windowlose" class="GtkWindow">
+    <property name="title">YOU LOSE</property> 
+    <property name="name">windowlose</property>
+    <property name="default-height">600</property>
+    <property name="default-width">1000</property>
+        <child>
+            <object id="losebox" class="GtkBox">
+                <property name="name">losebox</property>
+            </object>    
+        </child>
+
+    </object>
+</interface>
